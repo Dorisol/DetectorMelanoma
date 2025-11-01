@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Melanoma Detector</string>
+
+    <!-- MainActivity -->
+    <string name="titulo_principal">Detector de Melanoma</string>
+    <string name="subtitulo">Análisis de lunares mediante procesamiento de imágenes</string>
+    <string name="btn_tomar_foto">Tomar Foto</string>
+    <string name="btn_galeria">Galería</string>
+    <string name="btn_analizar">Analizar Imagen</string>
+    <string name="no_imagen">No hay imagen seleccionada</string>
+    <string name="procesando">Procesando imagen...</string>
+    <string name="disclaimer">⚠️ Esta aplicación NO reemplaza el diagnóstico médico profesional</string>
+
+    <!-- ResultadoActivity -->
+    <string name="titulo_resultado">Resultado del Análisis</string>
+    <string name="etiqueta_diagnostico">Diagnóstico</string>
+    <string name="etiqueta_confianza">Confianza:</string>
+    <string name="titulo_metricas">Métricas del Análisis</string>
+    <string name="radio_promedio">Radio Promedio:</string>
+    <string name="irregularidad">Irregularidad (Desv. Est.):</string>
+    <string name="titulo_recomendacion">Recomendación</string>
+    <string name="btn_nuevo_analisis">Nuevo Análisis</string>
+    <string name="btn_compartir">Compartir</string>
+
+    <!-- Permisos -->
+    <string name="permiso_camara_denegado">Permiso de cámara denegado</string>
+    <string name="permiso_galeria_denegado">Permiso de galería denegado</string>
+
+    <!-- Errores -->
+    <string name="error_opencv">Error al inicializar OpenCV</string>
+    <string name="error_cargar_imagen">Error al cargar la imagen</string>
+    <string name="error_crear_archivo">Error al crear archivo de foto</string>
+    <string name="error_procesar">Error al procesar: %s</string>
+    <string name="error_no_lunar">No se pudo detectar el lunar en la imagen</string>
+
+    <!-- Resultados -->
+    <string name="resultado_benigno">BENIGNO</string>
+    <string name="resultado_maligno">MALIGNO</string>
+    <string name="resultado_sospechoso">SOSPECHOSO</string>
+
+    <!-- Recomendaciones -->
+    <string name="recomendacion_benigno">Monitorear periódicamente. Consultar si hay cambios en tamaño, forma o color.</string>
+    <string name="recomendacion_sospechoso">⚠️ Se recomienda consultar con un dermatólogo para una evaluación profesional.</string>
+    <string name="recomendacion_maligno">🚨 IMPORTANTE: Agendar cita con un dermatólogo lo antes posible para evaluación profesional.</string>
+
+    <!-- Compartir -->
+    <string name="compartir_titulo">Compartir resultado</string>
+</resources>
